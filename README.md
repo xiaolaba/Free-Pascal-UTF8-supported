@@ -27,8 +27,8 @@ This is orgination and the cause, https://github.com/xiaolaba/gavrasm_CHT
 #### 2) Free Pascal IDE, no display such UTF8 string properly, but do not worry as they will be treated as byte sequency  
 #### 3) compile and open dosbox, uses 'chcp' command to swtich code page as you want
 ```chcp 65001 ```, code page will be utf-8  
-```chcp 950 ```, code page will be ANSI/OEM BIG5  
-```chcp 936 ```, supposedly code page will be ANSI/OEM GBK, but it is invalid ?!  
+```chcp 950 ```, code page will be ANSI/OEM BIG5, or CHT  
+```chcp 936 ```, supposedly code page will be ANSI/OEM GBK, or CHS, but it is invalid ?!  
 ```chcp 54936 ```, should be equal to 936 as long as micrsoft saying  
 ```chcp 437 ```, should be ANSI OEM US
 
