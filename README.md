@@ -1,7 +1,8 @@
 # Free-Pascal-UTF8-supported
-Win10, try to understand why some console program under has no  proper display UTF8 other than ANSI, my first time to deal with PASCAL    
+Win10, try to understand why some console program has no proper display UTF8 string other than ANSI, my first time to deal with PASCAL.
 
-### Inperfection, but not really quality issues, there are two issues
+### Inperfection, but not really quality issues, there are two issues  
+
 #### 1) Free Pascal IDE, look at the display is not confortable even a bit ugly  
 it is used typical ANSI char of 0x80 - 0xff for display and grid line something, under DOS or pure English OS is ok, but win10 with default code page 950, change code page to OEM 437, did not work out, do not know why, however compiler still functioning properly.  
 To embeds image to this read.me  
