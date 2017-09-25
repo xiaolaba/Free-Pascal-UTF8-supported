@@ -1,5 +1,5 @@
 # Free-Pascal-UTF8-supported
-Win10, try to understand why some console program under has no  proper display UTF8 other than ANSI  
+Win10, try to understand why some console program under has no  proper display UTF8 other than ANSI, my first time to deal with PASCAL    
 
 ### Inperfection, but not really quality issues, there are two issues
 #### 1) Free Pascal IDE, look at the display is not confortable even a bit ugly  
@@ -16,5 +16,15 @@ https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free%20Pascal
 
 
 #### 2) The User program, console output has no proper display for UTF8 string
+This is orgination and the cause, https://github.com/xiaolaba/gavrasm_CHT
+.  
+.  
+.  
+.  
 
+# Try and notes
+#### 1) Pascal source code, need to be UTF-8-BOM, uses the editor and ensure save such format  
+#### 2) Free Pascal IDE, no display such UTF8 string properly, but do not worry as they will be treated as byte sequency  
+#### 3) compile and open dosbox, uses 'chcp' command to swtich code page as you want
+```chcp 65001 ```
 
