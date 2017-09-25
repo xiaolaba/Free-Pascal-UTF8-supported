@@ -3,7 +3,7 @@ Win10, try to understand why some console program has no proper display UTF8 str
 
 ### Inperfection, but not really quality issues, there are two issues  
 
-#### 1) Free Pascal IDE, look at the display is not confortable even a bit ugly  
+#### 1) Free Pascal IDE, display does not look like comfortable even a bit ugly  
 it is used typical ANSI char of 0x80 - 0xff for display and grid line something, under DOS or pure English OS is ok, but win10 with default code page 950, change code page to OEM 437, did not work out, do not know why, however compiler still functioning properly.  
 To embeds image to this read.me  
 ![alt text](http://url/to/img.png)  
@@ -17,7 +17,7 @@ https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free%20Pascal
 
 
 #### 2) The User program, console output has no proper display for UTF8 string
-This is orgination and the cause, https://github.com/xiaolaba/gavrasm_CHT
+This is origination and the cause, https://github.com/xiaolaba/gavrasm_CHT
 .  
 .  
 .  
@@ -34,6 +34,7 @@ This is orgination and the cause, https://github.com/xiaolaba/gavrasm_CHT
 ```chcp 437 ```, should be ANSI OEM US  
 #### 4) aforementioned step (3) could be omitted, as this source code has specific code of code page setup at runtime with 'SetConsoleOutputCP(CP_UTF8);', however, the first time invoke, display no good as default code page started is 950 with the dosbox just opened; second time invoke, it should be fine and displayed properly with nice utf8 strings.
 #### 5) utf8.pas, the source code available
+![alt text](https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free%20Pascal%20IDE%20display%20no%20good.jpg)  
 
 
 
