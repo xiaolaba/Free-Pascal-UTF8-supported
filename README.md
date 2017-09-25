@@ -41,8 +41,9 @@ https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free_Pascal_U
 .  
 .  
 #### 5) utf8.pas, the source code available https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/utf8n.pas
-exectuable, https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/utf8n_exe, rename to utf8n.exe
-source code
+exectuable, https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/utf8n_exe, rename to utf8n.exe, or download & compile by your own. 
+.  
+source code listing  
 ``` 
 {ref : http://wiki.freepascal.org/Console_Mode_Pascal#Unicode_.28UTF8.29_output}
 {實驗如何用 Free PASCAL 輸出 UTF8 字串, by xiaolaba}
