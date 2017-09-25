@@ -1,5 +1,5 @@
 # Free-Pascal-UTF8-supported
-Win10, try to understand why some console program has no proper display UTF8 string other than ANSI, my first time to deal with PASCAL.
+Win10, try to understand why some console program has no proper display UTF8 string other than ANSI, my first time to deal with PASCAL language.
 
 ### Inperfection, but not really quality issues, there are two issues  
 
@@ -40,7 +40,8 @@ https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free_Pascal_U
 
 .  
 .  
-#### 5) utf8.pas, the source code available
+#### 5) utf8.pas, the source code available https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/utf8n.pas
+exectuable, https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/utf8n_exe, rename to utf8n.exe
 source code
 ``` 
 {ref : http://wiki.freepascal.org/Console_Mode_Pascal#Unicode_.28UTF8.29_output}
