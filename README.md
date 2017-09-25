@@ -35,7 +35,7 @@ UTF-8 wihtout BOM, it is not working in our example.
 ```chcp 65001 ```, code page will be utf-8  
 ```chcp 950 ```, code page will be ANSI/OEM BIG5, or CHT  
 ```chcp 936 ```, supposedly code page will be ANSI/OEM GBK, or CHS, but it is invalid ?!  
-```chcp 54936 ```, should be equal to 936 as long as micrsoft saying  
+```chcp 54936 ```, should be equal to 936 as long as microsoft saying  
 ```chcp 437 ```, should be ANSI OEM US  
   
 #### 4) aforementioned step (3) could be omitted, as this source code has specific code of code page setup at runtime with 'SetConsoleOutputCP(CP_UTF8);', however, the first time invoke, display no good as default code page started is 950 with the dosbox just opened; second time invoke, it should be fine and displayed properly with nice utf8 strings.
@@ -74,7 +74,7 @@ end.
 .  
 .  
 .  
-To confirm what is UTF-8-BOM and saying, there is 3 bytes at beginning of the text file (pascal source code) 
+To confirm what is UTF-8-BOM and saying, there is 3-bytes at beginning of the text file (pascal source code) 
 ````0xEF, 0xBB, 0xBF````  
 it is the same as WIKI saying of how the UTF-8-BOM looks like.  
 https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free_Pascal_UTF8-BOM_source_code.jpg
