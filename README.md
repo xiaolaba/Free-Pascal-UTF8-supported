@@ -34,7 +34,9 @@ This is origination and the cause, https://github.com/xiaolaba/gavrasm_CHT
 ```chcp 437 ```, should be ANSI OEM US  
 #### 4) aforementioned step (3) could be omitted, as this source code has specific code of code page setup at runtime with 'SetConsoleOutputCP(CP_UTF8);', however, the first time invoke, display no good as default code page started is 950 with the dosbox just opened; second time invoke, it should be fine and displayed properly with nice utf8 strings.
 #### 5) utf8.pas, the source code available
-![alt text](https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free%20Pascal%20IDE%20display%20no%20good.jpg)  
+
+https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free_Pascal_UTF%208_supported.jpg
+![alt text](https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free_Pascal_UTF%208_supported.jpg)  
 
 
 
