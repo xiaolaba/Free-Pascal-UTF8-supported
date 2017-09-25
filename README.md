@@ -24,7 +24,9 @@ This is origination and the cause, https://github.com/xiaolaba/gavrasm_CHT
 .  
 
 # Try and notes
-#### 1) Pascal source code, need to be UTF-8-BOM, uses the editor and ensure to save such format  
+#### 1) Pascal source code, need to be UTF-8-BOM, uses the editor and ensure to save such format
+what is UTF-8-BOM, see https://zh.wikipedia.org/wiki/%E4%BD%8D%E5%85%83%E7%B5%84%E9%A0%86%E5%BA%8F%E8%A8%98%E8%99%9F
+UTF-8 wihtout BOM, it is not working for this example.  
 #### 2) Free Pascal IDE, no display properly for such UTF8 string, but do not worry as they will be treated as byte sequency  
 #### 3) hit F9 to compile, then open dosbox, uses 'chcp 65001' command to swtich code page to utf-8 as you want. examples for other code page following,  
 ```chcp 65001 ```, code page will be utf-8  
