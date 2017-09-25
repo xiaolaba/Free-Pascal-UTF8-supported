@@ -70,8 +70,14 @@ begin
 	writeln ('plain: ' + UTF8TestString);
 	writeln ('plain: ' + UTF8TestString2);
 end.
-````
-
-
+````  
+.  
+.  
+.  
+To confirm what is UTF-8-BOM and saying, there is 3 bytes at beginning of the text file (pascal source code) 
+````0xEF, 0xBB, 0xBF````  
+it is the same as WIKI saying of how the UTF-8-BOM looks like.  
+https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free_Pascal_UTF8-BOM_source_code.jpg
+![alt text](https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free_Pascal_UTF8-BOM_source_code.jpg)  
 
 
