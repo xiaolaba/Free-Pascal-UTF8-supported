@@ -8,8 +8,8 @@ it is used typical ANSI char of 0x80 - 0xff for display and grid line something,
   
 To embeds image to this read.me  
 `![alt text](http://url/to/img.png)`  
-https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free%20Pascal%20IDE%20display%20no%20good.jpg
-![alt text](https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free%20Pascal%20IDE%20display%20no%20good.jpg)  
+https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free_Pascal_IDE_display_no_good.jpg
+![alt text](https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free_Pascal_IDE_display_no_good.jpg)  
 .  
 .  
 .  
@@ -41,8 +41,8 @@ UTF-8 wihtout BOM, it is not working in our example.
 #### 4) aforementioned step (3) could be omitted, as this source code has specific code of code page setup at runtime with 'SetConsoleOutputCP(CP_UTF8);', however, the first time invoke, display no good as default code page started is 950 with the dosbox just opened; second time invoke, it should be fine and displayed properly with nice utf8 strings.
 
 
-https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free_Pascal_UTF%208_supported.jpg
-![alt text](https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free_Pascal_UTF%208_supported.jpg)  
+https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free_Pascal_UTF8_supported.jpg
+![alt text](https://github.com/xiaolaba/Free-Pascal-UTF8-supported/blob/master/Free_Pascal_UTF8_supported.jpg)  
 
 .  
 .  
