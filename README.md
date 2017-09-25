@@ -31,7 +31,8 @@ This is orgination and the cause, https://github.com/xiaolaba/gavrasm_CHT
 ```chcp 936 ```, supposedly code page will be ANSI/OEM GBK, or CHS, but it is invalid ?!  
 ```chcp 54936 ```, should be equal to 936 as long as micrsoft saying  
 ```chcp 437 ```, should be ANSI OEM US  
-#### 4) aforementioned step (3) could be omitted, as this source code has specific code of code page setup at runtime with 'SetConsoleOutputCP(CP_UTF8);', first time invoke, display no good, second time invoke, it should be fine
+#### 4) aforementioned step (3) could be omitted, as this source code has specific code of code page setup at runtime with 'SetConsoleOutputCP(CP_UTF8);', however, the first time invoke, display no good as default code page started is 950 with the dosbox just opened; second time invoke, it should be fine and displayed properly with nice utf8 strings.
+#### 5) utf8.pas, the source code available
 
 
 
